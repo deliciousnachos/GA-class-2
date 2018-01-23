@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Georgia, serif;
   background-color: #FFE;
   border-color: black;
   border-style: solid;
@@ -15,7 +15,6 @@ h1 {
 }
 
 h2 {
-  color: #444;
   font-size: 20px;
 }
 
@@ -28,11 +27,13 @@ a {
 }
 
 ul {
-  font-size: 80%;
+  list-style-type: square;
+  font-size: 16px;
 }
 
 ol {
   line-height: 25px;
+  font-size: 18px;
 }
 
 img {
@@ -43,10 +44,21 @@ img {
 
 footer {
   padding-top: 40px;
+  color: #887;
 }
 
 .stats {
   font-size: 13px;
-  line-height: 13px;
+  line-height: 1;
   padding: 10px 0;
+}
+
+.smallhead {
+  font-size: 16px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+div {
+  padding: 10px 0 0 0;
 }
