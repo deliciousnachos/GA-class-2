@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #FFE;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  padding: 40px;
+  margin: 0;
+}
+
+h1 {
+  padding: 0 0 20px 0;
+  margin: 0;
+  font-size: 40px;
+}
+
+h2 {
+  color: #444;
+  font-size: 20px;
+}
+
+h3 {
+  color: #887;
+}
+
+a {
+  color: #900;
+}
+
+ul {
+  font-size: 80%;
+}
+
+ol {
+  line-height: 25px;
+}
+
+img {
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+footer {
+  padding-top: 40px;
+}
+
+.stats {
+  font-size: 13px;
+  line-height: 13px;
+  padding: 10px 0;
+}
